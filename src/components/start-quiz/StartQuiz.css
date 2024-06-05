@@ -1,0 +1,17 @@
+h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.next-quiz {
+    width: 120px;
+    border: 1px solid #78c5e9;
+    background-color: #addaee;
+    height: 50px;
+    font-size: larger;
+    border-radius: 5px;
+}
+
+.text-center {
+    text-align: center;
+}

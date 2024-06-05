@@ -1,0 +1,59 @@
+{
+    "quiz": [
+        {
+            "id": 0,
+            "domanda": "Chi è stato il primo imperatore romano?",
+            "risposte": [
+                "Augusto",
+                "Nerone",
+                "Caligola",
+                "Tiberio",
+                "Claudio"
+            ]
+        },
+        {
+            "id": 1,
+            "domanda": "Quale evento ha segnato l'inizio del Medioevo?",
+            "risposte": [
+                "La caduta dell'Impero Romano d'Occidente",
+                "La scoperta dell'America",
+                "La battaglia di Waterloo",
+                "La riforma protestante",
+                "L'invenzione della stampa"
+            ]
+        },
+        {
+            "id": 2,
+            "domanda": "Chi ha scoperto l'America?",
+            "risposte": [
+                "Cristoforo Colombo",
+                "Vasco da Gama",
+                "Ferdinando Magellano",
+                "Amerigo Vespucci",
+                "Marco Polo"
+            ]
+        },
+        {
+            "id": 3,
+            "domanda": "Quale guerra è stata combattuta tra il 1914 e il 1918?",
+            "risposte": [
+                "La Prima Guerra Mondiale",
+                "La Seconda Guerra Mondiale",
+                "La Guerra di Corea",
+                "La Guerra del Vietnam",
+                "La Guerra dei Trent'anni"
+            ]
+        },
+        {
+            "id": 4,
+            "domanda": "Chi è stato il primo presidente degli Stati Uniti?",
+            "risposte": [
+                "George Washington",
+                "Thomas Jefferson",
+                "Abraham Lincoln",
+                "John Adams",
+                "James Madison"
+            ]
+        }
+    ]
+}
