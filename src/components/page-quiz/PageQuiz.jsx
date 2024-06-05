@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import * as data from '../../quiz.json';
+import './PageQuiz.css'
 
 
 export default function PageQuiz({ onFinish, onSaveAnswers }) {
@@ -36,22 +37,24 @@ export default function PageQuiz({ onFinish, onSaveAnswers }) {
     }
     return (
         <>
-            <h1>Quiz</h1>
+            <h1>Rispondi alla Domanda</h1>
             <div>
                 <h2>{questions[currentQuestion]?.domanda}</h2>
-                <ul>
-                    {questions[currentQuestion]?.risposte.map((risposta, index) => (
-                        <li key={index}>
-                            <label htmlFor="">
-                                <input type="checkbox"
-                                    checked={selectedAnswer === risposta}
-                                    onChange={() => handleAnswerChange(risposta)}
-                                />
-                                {risposta}
-                            </label>
-                        </li>
-                    ))}
-                </ul>
+                <div className='contenitore-questions'>
+                    <ul>
+                        {questions[currentQuestion]?.risposte.map((risposta, index) => (
+                            <li key={index}>
+                                <label htmlFor="">
+                                    <input type="checkbox"
+                                        checked={selectedAnswer === risposta}
+                                        onChange={() => handleAnswerChange(risposta)}
+                                    />
+                                    {risposta}
+                                </label>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
             </div>
             <button className='next-quiz' onClick={handleNextQuestion} disabled={!selectedAnswer}>
                 {currentQuestion < questions.length - 1 ? 'Next' : 'Finish'}
